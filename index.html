@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CGPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Student CGPA Calculator</h2>
+        <form method="POST" action="/calculate">
+            <input type="text" name="name" placeholder="Student Name" required><br>
+            <input type="text" name="roll" placeholder="Roll Number" required><br>
+
+            <input type="number" name="m1" placeholder="Subject 1 Marks(1-100)" required><br>
+            <input type="number" name="c1" placeholder="Subject 1 Credits(1-5)" required><br>
+
+            <input type="number" name="m2" placeholder="Subject 2 Marks(1-100)" required><br>
+            <input type="number" name="c2" placeholder="Subject 2 Credits(1-5)" required><br>
+
+            <input type="number" name="m3" placeholder="Subject 3 Marks(1-100)" required><br>
+            <input type="number" name="c3" placeholder="Subject 3 Credits(1-5)" required><br>
+
+            <button type="submit">Calculate CGPA</button>
+        </form>
+    </div>
+</body>
+</html>
